@@ -1,0 +1,21 @@
+{
+  "name": "express-bangers-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx netlify-lambda serve src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb-client-encryption": "^1.2.6",
+    "mongoose": "^5.13.5",
+    "netlify-lambda": "^2.0.13",
+    "serverless-http": "^2.7.0"
+  }
+}

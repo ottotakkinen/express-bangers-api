@@ -1,0 +1,7 @@
+POST http://localhost:9000/.netlify/functions/api
+Content-Type: application/json
+
+{
+    "spotifyId": "3oiwQKGWKirH1H5qbTsYpG",
+    "user": "testuser"
+}
